@@ -25,6 +25,7 @@ public class TC_DWS_101_Test extends BaseClass
 		
 		Assert.assertEquals(driver.getTitle(), "Demo Web Shop. Simple Computer","Computer page is not displayed");
 		test.log(Status.PASS, "Simple Computer Page is Displayed");
+		test.log(Status.PASS, "Simple Computer Page is NOTDisplayed");
 	}
 	public void clickOnShoppingcart()
 	{
